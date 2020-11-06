@@ -309,9 +309,19 @@ bio: Add 1-2 sentences (or use lorem ipsum)
 
 At the end, this function should return the new array with information added"*/
 
-function addArtist(/*Your Code Here*/) {
-  /*Your Code Here*/
+function addArtist(array, string) {
+  array.unshift(string);
+  return array;
 }
+(artists.id = 20),
+  (artists.name = "Jane Moody"),
+  (artists.years = "1987 - 2020"),
+  (artists.genre = "Web Design"),
+  (artists.nationality = "American Indian"),
+  (artists.bio =
+    "You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder.");
+
+console.log(artists);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Create a function called lotsOfArt() that takes one argument: 
